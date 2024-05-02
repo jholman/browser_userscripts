@@ -5,7 +5,7 @@
 // @version           2022-02-09
 // @grant             none
 // @require           https://code.jquery.com/jquery-3.6.0.min.js
-// @run-at            document-end
+// @run-at            document-start
 // ==/UserScript==
 
 
@@ -28,7 +28,7 @@ const myStyles = `
   width: 100%;
 }
 
-#SurveyModule {
+#SurveyModule, .global-navigation, #mixed-content-footer, #WikiaBar {
   display: none;
 }
 
